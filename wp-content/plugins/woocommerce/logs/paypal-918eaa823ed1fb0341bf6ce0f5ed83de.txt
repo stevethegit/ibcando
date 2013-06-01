@@ -1,0 +1,286 @@
+05-29-2013 @ 13:53:39 - Generating payment form for order #141. Notify URL: http://ibcando.steveit.co.uk/?wc-api=WC_Gateway_Paypal
+05-29-2013 @ 13:55:23 - Checking IPN response is valid...
+05-29-2013 @ 13:55:23 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 1.99
+            [invoice] => WC-141
+            [protection_eligibility] => Ineligible
+            [item_number1] => 0001
+            [payer_id] => Z8ME9DFV8GFXG
+            [tax] => 0.00
+            [payment_date] => 04:55:21 May 29, 2013 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Steve
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:141;i:1;s:19:"order_51a5ec434c601";}
+            [payer_status] => verified
+            [business] => steve.the.radge-facilitator@gmail.com
+            [num_cart_items] => 1
+            [mc_handling1] => 0.00
+            [verify_sign] => ANo0UjX.NaGzEhGRSsgJ13pyoJPiAeXpIQOXJSpJQ7KMJ-ii9PEc9lGO
+            [payer_email] => steve@steveit.co.uk
+            [mc_shipping1] => 0.00
+            [tax1] => 0.00
+            [txn_id] => 47354619DL5426324
+            [payment_type] => instant
+            [last_name] => Williams
+            [item_name1] => Tutoring Credit (1h)
+            [receiver_email] => steve.the.radge-facilitator@gmail.com
+            [quantity1] => 1
+            [receiver_id] => AJ5R82TADXEB6
+            [pending_reason] => multi_currency
+            [txn_type] => cart
+            [mc_gross_1] => 1.99
+            [mc_currency] => EUR
+            [residence_country] => US
+            [test_ipn] => 1
+            [transaction_subject] => a:2:{i:0;i:141;i:1;s:19:"order_51a5ec434c601";}
+            [payment_gross] => 
+            [ipn_track_id] => 62b1452c6763
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.10
+)
+
+05-29-2013 @ 13:55:25 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Wed, 29 May 2013 11:55:24 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=NchVfAk82aW9i2MwV1_kUzL5L-vSppqYNfYlBtZW-s6OzmnaumsFEWa82UR13_6p9NEqicK1vVYwzMI_EGkVk0OZq1i9Ow-Fvk16Th6LeNDEjWNxH5FBS4Uc8c8i4eEN_Y0DPW%7cxAiKp4q4Ub_Z8R-AYavMUxmDYRdzbcUeKcN9cSP1c124YiHKLYVySVBXo4LWZod_O0VCQm%7c_FfsDDz9tM1uvYoSRfl6dLLyeJGCk_Axqckf2EWRuwouNsdlTqizO8bcOdLZu7VP2BCC6m%7c1369828525; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 27-May-2023 11:55:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 24-May-2033 11:55:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1369828524731512; path=/; expires=Fri, 22-May-43 11:55:24 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => NchVfAk82aW9i2MwV1_kUzL5L-vSppqYNfYlBtZW-s6OzmnaumsFEWa82UR13_6p9NEqicK1vVYwzMI_EGkVk0OZq1i9Ow-Fvk16Th6LeNDEjWNxH5FBS4Uc8c8i4eEN_Y0DPW|xAiKp4q4Ub_Z8R-AYavMUxmDYRdzbcUeKcN9cSP1c124YiHKLYVySVBXo4LWZod_O0VCQm|_FfsDDz9tM1uvYoSRfl6dLLyeJGCk_Axqckf2EWRuwouNsdlTqizO8bcOdLZu7VP2BCC6m|1369828525
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1685188525
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 2000548525
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1369828524731512
+                    [expires] => 2315908524
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+05-29-2013 @ 13:55:25 - Received valid response from PayPal
+05-29-2013 @ 13:55:25 - Found order #141
+05-29-2013 @ 13:55:25 - Payment status: completed
+05-29-2013 @ 13:55:25 - Payment complete.
+05-30-2013 @ 18:45:53 - Generating payment form for order #157. Notify URL: http://ibcando.steveit.co.uk/?wc-api=WC_Gateway_Paypal
+05-30-2013 @ 18:46:22 - Checking IPN response is valid...
+05-30-2013 @ 18:46:22 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 1.99
+            [invoice] => WC-157
+            [protection_eligibility] => Ineligible
+            [item_number1] => 0001
+            [payer_id] => Z8ME9DFV8GFXG
+            [tax] => 0.00
+            [payment_date] => 09:46:17 May 30, 2013 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Steve
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:157;i:1;s:19:"order_51a78240a157f";}
+            [payer_status] => verified
+            [business] => steve.the.radge-facilitator@gmail.com
+            [num_cart_items] => 1
+            [mc_handling1] => 0.00
+            [verify_sign] => AbDO58FbXAmFFk80xYLCcgRImV.HA9ESTM9m-iGESPsxjqybS7OZVter
+            [payer_email] => steve@steveit.co.uk
+            [mc_shipping1] => 0.00
+            [tax1] => 0.00
+            [txn_id] => 6HF74294959770225
+            [payment_type] => instant
+            [last_name] => Williams
+            [item_name1] => Tutoring Credit (1h)
+            [receiver_email] => steve.the.radge-facilitator@gmail.com
+            [quantity1] => 1
+            [receiver_id] => AJ5R82TADXEB6
+            [pending_reason] => multi_currency
+            [txn_type] => cart
+            [mc_gross_1] => 1.99
+            [mc_currency] => EUR
+            [residence_country] => US
+            [test_ipn] => 1
+            [transaction_subject] => a:2:{i:0;i:157;i:1;s:19:"order_51a78240a157f";}
+            [payment_gross] => 
+            [ipn_track_id] => fabd124d647af
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.10
+)
+
+05-30-2013 @ 18:46:24 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Thu, 30 May 2013 16:46:23 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=Pn3stnpmI7SrQDQMU5be3u1L6wHxdlHUMWlQUfcX3ObDyRQDItWAAa3ulyTuEdNJqVXkcRAfl-DmPFmPyEZbTxXiOmitVq58fSCYzKgOpRXRahkQf4hUV5klegaxPss9NR20C0%7cQwMN8zqrwNVHvt_0h4VZVeqvy7ruhIoOz-Wau1JOeS60RJDUiYi8BW1_1jUYckgZT2UNe0%7cglOcH5LaiP9N9rWHG495_LuPMbDpEOcjFoDzq4D9upnNsTEAjJWfQ4rNTF_hCUjCotgWQG%7c1369932383; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sun, 28-May-2023 16:46:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 25-May-2033 16:46:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1369932383544226; path=/; expires=Sat, 23-May-43 16:46:23 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => Pn3stnpmI7SrQDQMU5be3u1L6wHxdlHUMWlQUfcX3ObDyRQDItWAAa3ulyTuEdNJqVXkcRAfl-DmPFmPyEZbTxXiOmitVq58fSCYzKgOpRXRahkQf4hUV5klegaxPss9NR20C0|QwMN8zqrwNVHvt_0h4VZVeqvy7ruhIoOz-Wau1JOeS60RJDUiYi8BW1_1jUYckgZT2UNe0|glOcH5LaiP9N9rWHG495_LuPMbDpEOcjFoDzq4D9upnNsTEAjJWfQ4rNTF_hCUjCotgWQG|1369932383
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1685292383
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 2000652383
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1369932383544226
+                    [expires] => 2316012383
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+05-30-2013 @ 18:46:24 - Received valid response from PayPal
+05-30-2013 @ 18:46:24 - Found order #157
+05-30-2013 @ 18:46:24 - Payment status: completed
+05-30-2013 @ 18:46:24 - Payment complete.
